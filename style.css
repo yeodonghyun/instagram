@@ -1,0 +1,15 @@
+<style>
+            h2{
+                color:red;
+            }
+            .highlight{
+                border:solid;
+            }
+            strong{
+                color:red;
+            }
+            #profile{
+                border:solid;
+                border-color:blue;
+            }
+</style>
