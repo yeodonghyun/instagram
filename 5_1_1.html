@@ -1,18 +1,25 @@
 <html>
     <head>
         <link href="style.css" rel="stylesheet"><!--style.css와 연결해주는 태그-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"rel="stylesheet"/>
     </head>
     <body>
-        <div><!--로고와 검색창-->
+        <div id="top"><!--로고와 검색창-->
             <img src="images/Instagram.png" width="100px"/>
             <input type="search" value="검색"/>
+            <div>    
+                <i class="fa-solid fa-house"></i>
+                <i class="fa-sharp-duotone fa-solid fa-paper-plane"></i>
+                <i class="fa-sharp-duotone fa-solid fa-compass"></i>
+                <i class="fa-sharp-duotone fa-solid fa-heart"></i>
+            </div>
         </div>
         <div id="profile">
             <div id = "profile_pic">
                 <img class="circle_pic" src="images/purin.jpg" width="50px"/>
             </div>
             <div id="profile_info">
-                <div>44_cheRRy</div>
+                <div>44_cheRRy <i class="fa-sharp-duotone fa-solid fa-gear"></i></div>
                 <button>프로필 편집</button>
             </div>
         </div>
@@ -60,7 +67,14 @@
             1
             </div>
         </div>
-        <div> 아이콘 자리 </div>
+        <div id="sub_icons">
+            <div class="selected">
+                <i class="fa-sharp-duotone fa-solid fa-border-all"></i></div>
+                <div><i class="fa-sharp-duotone fa-solid fa-film"></i></div>
+                <div><i class="fa-sharp-duotone fa-solid fa-circle-play"></i></div>
+                <div><i class="fa-sharp-duotone fa-solid fa-bookmark"></i></div>
+                <div><i class="fa-sharp-duotone fa-solid fa-user"></i></div>
+             </div>
         <div><!--게시물-->
         <img src="images/thumbnails/1717746546.png"width="32%" height="250px"/>
         <img src="images/thumbnails/1719472250.jpg"width="32%" height="250px"/>
@@ -71,12 +85,7 @@
         <img src="images/thumbnails/1717072858.gif"width="32%" height="250px"/>
         <img src="images/thumbnails/1718864816.jpg"width="32%" height="250px"/>
         <img src="images/thumbnails/자동차.jpg"width="32%" height="250px"/>
-        <div class="thumbnail_grid">
-            <img src="images/thumbnails/0_9Ilk1p8BlDnmHj1K.gif"/>
-            <img src="images/thumbnails/1630942575542.gif"/>
-            <img src="images/thumbnails/1670902336.gif"/>
-            <img src="images/thumbnails/1717072858.gif"/>
-        </div>
+
     </div>
     </body>
 </html>
